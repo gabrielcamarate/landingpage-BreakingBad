@@ -1,7 +1,136 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Montserrat Alternates', sans-serif;
-    font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
+
+header {
+  width: 100%;
+  height: 100vh;
+  /* background header */
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  background: linear-gradient(
+    180deg,
+    #fcc506 0%,
+    #facb03 48.97%,
+    #fbdd09 75.61%,
+    #fbe00a 100%
+  );
+  text-align: center;
+  z-index: 0;
+}
+
+.nav-item {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.nav-item > a {
+  display: inline-block;
+  padding: 38px 40px;
+  text-decoration: none;
+  color: #000000;
+  transition: 0.2s;
+}
+
+.nav-item > a:hover {
+  display: inline-block;
+  padding: 38px 40px;
+  text-decoration: none;
+  color: white;
+  scale: 1.2;
+}
+
+.breaking {
+  /* Breaking */
+
+  position: absolute;
+  width: 736px;
+  height: 118px;
+  left: calc(50% - 736px / 2);
+  top: 160px;
+
+  font-family: "Montserrat Alternates";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 160px;
+  line-height: 122px;
+  /* or 76% */
+  text-align: center;
+  letter-spacing: -0.05em;
+
+  color: #000000;
+}
+
+.bad {
+  /* Bad */
+  position: absolute;
+  width: 330px;
+  height: 119px;
+  left: calc(50% - 330px / 2);
+  top: 318px;
+
+  font-family: "Montserrat Alternates";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 160px;
+  line-height: 123px;
+  /* or 77% */
+  text-align: center;
+  letter-spacing: -0.05em;
+  color: #000000;
+  z-index: 1;
+}
+
+.text_1 {
+  position: absolute;
+  width: 475px;
+  height: 56px;
+  left: 40px;
+  top: 358px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  /* or 125% */
+  text-align: center;
+
+  color: #000000;
+}
+
+.text_2 {
+  position: absolute;
+  width: 475px;
+  height: 56px;
+  right: 40px;
+  top: 358px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  /* or 125% */
+  text-align: center;
+
+  color: #000000;
+}
+
+
+.background__image {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
